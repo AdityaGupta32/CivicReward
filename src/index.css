@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #1c2b23;
+
+  --color-primary: #125028;
+  /* Deep Government Green */
+  --color-primary-foreground: #ffffff;
+
+  --color-secondary: #ffcc00;
+  /* Vibrant Yellow from reference */
+  --color-secondary-foreground: #1c2b23;
+
+  --color-muted: #f3fdf6;
+  --color-muted-foreground: #4a6353;
+
+  --color-border: #e2f0e8;
+  --color-card: #ffffff;
+  --color-card-foreground: #1c2b23;
+
+  --font-sans: "Outfit", "Inter", "Segoe UI", system-ui, sans-serif;
+}
+
+@layer utilities {
+  .animate-float-slow {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-float-fast {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}
+
+@layer base {
+  .dark {
+    --color-background: #0d1a12;
+    --color-foreground: #e6f5eb;
+    --color-primary: #1b7a3d;
+    --color-primary-foreground: #ffffff;
+    --color-card: #14291c;
+    --color-card-foreground: #e6f5eb;
+    --color-border: #1e3d29;
+    --color-muted: #1e3d29;
+    --color-muted-foreground: #9db5a5;
+    --color-secondary: #e6b800;
+    --color-secondary-foreground: #1c2b23;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+  }
+}
