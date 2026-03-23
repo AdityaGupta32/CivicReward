@@ -172,7 +172,30 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more informa
 - The civic heroes who report issues every day 🏙️
 
 ---
+## 👥 Team Members
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://ui-avatars.com/api/?name=Aditya+Gupta&background=22d3ee&color=000" width="100px;" alt=""/><br />
+      <b>Aditya Gupta</b>
+    </td>
+    <td align="center">
+      <img src="https://ui-avatars.com/api/?name=Satyam+Mishra&background=c084fc&color=fff" width="100px;" alt=""/><br />
+      <b>Satyam Mishra</b>
+    </td>
+    <td align="center">
+      <img src="https://ui-avatars.com/api/?name=Aditya+Gond&background=f472b6&color=fff" width="100px;" alt=""/><br />
+      <b>Aditya Gond</b>
+    </td>
+    <td align="center">
+      <img src="https://ui-avatars.com/api/?name=Sejal+Gupta&background=34d399&color=000" width="100px;" alt=""/><br />
+      <b>Sejal Gupta</b>
+    </td>
+  </tr>
+</table>
+
+---
 <div align="center">
 
 **Made with ❤️ for better cities**
